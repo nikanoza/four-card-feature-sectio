@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 85px 0;
+}
+
+.heading-1 {
+  color: #4d4f62;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+  letter-spacing: 0.167px;
+}
+
+.heading-2 {
+  color: #4d4f62;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.167px;
+  margin-bottom: 13px;
+}
+
+.paragraph {
+  color: #4d4f62;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.104px;
+  opacity: 0.5;
+}
+
+.section-container {
+  padding: 0 0 78px 32px;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px; */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 23px; */
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+  height: 222px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  margin-bottom: 25px;
+}
+
+.border-aqua {
+  border-top: 4px solid #44d3d2;
+}
+
+.border-red {
+  border-top: 4px solid #ea5454;
+}
+
+.border-orange {
+  border-top: 4px solid #fcae;
+}
+
+.border-blue {
+  border-top: 4px solid #549ef2;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #4d4f62;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 27px 0 1px 28px;
+}
+
+.description {
+  color: #4d4f62;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  padding-left: 29px;
+  opacity: 0.5;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 32px;
+  /* padding-bottom: 32px; */
+  padding-top: 33px;
+}
+
+.icon {
+  width: 57px;
+  height: 57px;
+}
